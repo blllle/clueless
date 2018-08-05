@@ -1,0 +1,75 @@
+/* background: rgb(238, 118, 175);
+  background: radial-gradient(
+    circle,
+    rgba(238, 118, 175, 1) 0%,
+    rgba(200, 55, 123, 1) 94%
+  ); */
+
+.App {
+  text-align: center;
+  background-image: url(assets/clueless.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 100vh;
+  border: 10px solid rgb(255, 250, 93);
+}
+
+.App-logo {
+  height: 80px;
+  margin-top: 20px;
+}
+
+.App-header {
+  padding: 40px 0 10px;
+}
+
+/* .App-header {
+  height: 25vh;
+  padding: 40px 0px 20px;
+  background-image: url(assets/plaid.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+} */
+
+.pic {
+  width: 400px;
+}
+
+.pic img {
+  width: 100%;
+}
+
+.Generated-text {
+  max-width: 350px;
+  border-radius: 50px 50px 0px 50px;
+  text-align: center;
+  margin: 30px 0px 50px 350px;
+  padding: 30px;
+  background: white;
+}
+
+.Go-button {
+  margin: 20px 0px 40px;
+  font-size: 20px;
+  border: 2px solid #000000;
+  color: #000526;
+  font-family: Verdana;
+  padding: 20px 40px;
+  box-shadow: inset 0px 4px 0 0 #6a75fc, inset 3px 0px 0 0 #6b76ff,
+    inset 0px -2px 0 0 #3d4391, inset -4px 0px 0px 0 #3d4391;
+  -moz-box-shadow: inset 0px 4px 0 0 #6a75fc, inset 3px 0px 0 0 #6b76ff,
+    inset 0px -2px 0 0 #3d4391, inset -4px 0px 0px 0 #3d4391;
+  -webkit-box-shadow: inset 0px 4px 1px 0 #6a75fc, inset 4px 0px 1px 0 #6b76ff,
+    inset 0px -2px 1px 0 #252951, inset -4px 0px 1px 0 #252951;
+  background-color: #3643f5;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
