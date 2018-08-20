@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import logo from "./assets/clueless_black.svg";
-import cher from "./assets/cher.jpg";
 import "./App.css";
 
 // blank on page load
