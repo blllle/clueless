@@ -270,20 +270,20 @@ class App extends Component {
   // outputs 3 or specififed amount of paragraphs
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div className="app">
+        <header className="app-header">
+          <img src={logo} className="app-logo" alt="logo" />
         </header>
 
-        <div className="App-inner">
+        <div className="app-inner">
           {this.state.showResults && (
-            <div class="Generated-text">
+            <div class="generated-text">
               <p>{this.generatePageText()}</p>
               <p>{this.generatePageText()}</p>
             </div>
           )}
 
-          <button class="Go-button" onClick={this.onClickGenerate}>
+          <button class="go-button" onClick={this.onClickGenerate}>
             UGH, AS IF!
           </button>
         </div>
