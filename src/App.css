@@ -12,6 +12,7 @@
   background-size: cover;
   min-height: 100vh;
   border: 10px solid rgb(255, 250, 93);
+  box-sizing: border-box;
 }
 
 .app-logo {
