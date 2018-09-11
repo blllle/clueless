@@ -5,7 +5,7 @@
     rgba(200, 55, 123, 1) 94%
   ); */
 
-.App {
+.app {
   text-align: center;
   background-image: url(assets/clueless.png);
   background-repeat: no-repeat;
@@ -14,12 +14,12 @@
   border: 10px solid rgb(255, 250, 93);
 }
 
-.App-logo {
+.app-logo {
   height: 80px;
   margin-top: 20px;
 }
 
-.App-header {
+.app-header {
   padding: 40px 0 10px;
 }
 
@@ -31,16 +31,17 @@
   width: 100%;
 }
 
-.Generated-text {
+.generated-text {
   max-width: 350px;
   border-radius: 50px 50px 0px 50px;
   text-align: center;
   margin: 30px 0px 50px 350px;
   padding: 30px;
-  background: white;cd 
+  background: white;
+  color: #444;
 }
 
-.Go-button {
+.go-button {
   margin: 20px 0px 40px;
   font-size: 20px;
   border: 2px solid #000000;
@@ -64,3 +65,20 @@
     transform: rotate(360deg);
   }
 } */
+
+@media (max-width: 767px) {
+  .app {
+    text-align: center;
+    background-image: url(assets/clueless-mob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    border: 10px solid rgb(255, 250, 93);
+  }
+
+  .generated-text {
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.75);
+    color: #df0b99;
+  }
+}
